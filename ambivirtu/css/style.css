@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+* {
+    font-family: Poppins, sans-serif, 'Courier New', Courier, monospace;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-navbar {
+    padding: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.10);
+}
+
+#main-navbar > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#main-navbar > ul > li {
+    font-size: 1.1em;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+}
+
+#main-navbar > ul > li::before {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #4361EE;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -5px;
+    transition: 0.1s;
+}
+
+#main-navbar > ul > li:hover::before {
+    width: 100%;
+}
+
+.navbar-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero-content {
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 50%;
+    color: #313131;
+    gap: 30px;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.1em;
+}
+
+/* FEATURE SECTION */
+
+#feature-section {
+    background-color: #D0D7FB;
+    color: #313131;
+    padding: 70px;
+}
+
+#feature-section h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+#feature-section p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.feature-content {
+    max-width: 950px;
+    min-width: 750px;
+}
+
+p > span {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p > span:hover {
+    color: purple;
+}
+
+/* SERVICES SECTION */
+
+.services-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 530px);
+    gap: 75px;
+}
+
+.services-content h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 75px 0;
+    color: #313131;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 5px 15px;
+    width: 500px;
+    height: 170px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.10);
+}
+
+.card h3 {
+    color: #313131;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #F7F7FF;
+    /* background-color: yellow; */
+    margin-top: 200px;
+    padding: 0 60px;
+}
+
+#top-area-footer {
+    /* background-color: red; */
+    padding: 60px 0;
+}
+
+#top-area-footer {
+    display: flex;
+    gap: 170px;
+}
+
+.footer-container h3 {
+    margin-bottom: 27px;
+    font-weight: 500;
+}
+
+.footer-container h3, a {
+    font-size: 1.1em;
+    color: #313131;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+    color: #4361EE;
+}
+
+#socialmedia-links i{
+    font-size: 36px;
+    margin-right: 10px;
+    color: black;
+    position: relative;
+    left: -4px;
+}
+
+#bottom-area-footer {
+    /* background-color: blue; */
+    border-top: 2px solid #0000ff10;
+    padding: 25px 0;
+}
+
+#bottom-area-footer > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    font-weight: 500;
+}
+
+/* ESTILOS DE BOTÕES */
+
+.btn-solid-blue {
+    border: 2px solid #4361EE;
+    color: #4361EE;
+}
+
+.btn-outline-blue {
+    color: white;
+    background-color: #4361EE;
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: 0.1s;
+}
+
+.btn:hover {
+    background-color: rgb(83, 113, 245);
+    color: white;
+}

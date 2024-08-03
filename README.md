@@ -1,2 +1,2 @@
 # ambi-virtu
- Desenvolvimento da Plataforma Educacional - ambi-virtu
+ Desenvolvimento da Plataforma Educacional - AmbiVirtu
