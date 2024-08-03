@@ -11,17 +11,18 @@
 #main-navbar {
     padding: 15px;
     height: 70px;
-    display: flex;
-    align-items: center;
     justify-content: space-evenly;
     background-color: white;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.10);
 }
 
-#main-navbar > ul {
+.display-center-center {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#main-navbar > ul {
     gap: 50px;
 }
 
@@ -48,23 +49,14 @@
 }
 
 .navbar-buttons-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 30px;
 }
 
 .hero-content {
     margin: 150px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .hero-content > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     text-align: center;
     max-width: 50%;
@@ -118,9 +110,6 @@ p > span:hover {
 /* SERVICES SECTION */
 
 .services-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -193,7 +182,7 @@ footer {
     color: #4361EE;
 }
 
-#socialmedia-links i{
+#socialmedia-links i {
     font-size: 36px;
     margin-right: 10px;
     color: black;
@@ -208,8 +197,6 @@ footer {
 }
 
 #bottom-area-footer > ul {
-    display: flex;
-    align-items: center;
     justify-content: flex-start;
     gap: 100px;
     font-weight: 500;
