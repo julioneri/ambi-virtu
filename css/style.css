@@ -26,12 +26,15 @@ body {
 }
 
 #main-navbar {
-    padding: 15px;
-    height: 50px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: white;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.10);
     color: var(--av-grey-700);
+}
+
+#header-logo {
+    width: 50px;
+    padding: 0 20px;
 }
 
 .display-center-center {
@@ -40,11 +43,16 @@ body {
     justify-content: center;
 }
 
-#main-navbar > ul {
-    gap: 50px;
+#main-navbar .av-nav-menu-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    gap: 5px;
 }
 
 #main-navbar > ul > li {
+    padding: 17px 8px;
     font-size: 1em;
     font-weight: 500;
     position: relative;
