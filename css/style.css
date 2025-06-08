@@ -30,6 +30,7 @@ body {
     background-color: white;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.10);
     color: var(--av-grey-700);
+    padding: 10px 30px;
 }
 
 #header-logo {
@@ -48,7 +49,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     width: 50%;
-    gap: 5px;
+    gap: 30px;
 }
 
 #main-navbar > ul > li {
@@ -66,8 +67,9 @@ body {
     background-color: #4361EE;
     border-radius: 50px;
     position: absolute;
-    bottom: -5px;
-    transition: 0.1s;
+    bottom: 7px;
+    left: 0px;
+    transition: 0.3s;
 }
 
 #main-navbar > ul > li:hover::before {
